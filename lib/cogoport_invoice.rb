@@ -7,7 +7,7 @@ module CogoportInvoice
   # Your code goes here...
 
   class Invoice
-    def create_invoice_combination
+    def self.create_invoice_combination
       print "asdfhhh"
     end
   end
