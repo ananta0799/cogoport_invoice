@@ -6,12 +6,9 @@ module CogoportInvoice
   class Error < StandardError; end
   # Your code goes here...
 
-  def create_invoice_combination
-    print "asdfhhh"
+  class Invoice
+    def create_invoice_combination
+      print "asdfhhh"
+    end
   end
 end
-
-class Invoice
-  include CogoportInvoice
-end
-
