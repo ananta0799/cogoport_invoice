@@ -10,7 +10,7 @@ module CogoportInvoice
   class Invoice < ApplicationRecord
     def self.create_invoice_combination(shipment_id)
       print "asdfhhh"
-      Shipment.find(shipment_id)
+      Shipment.where(id: shipment_id)
     end
   end
 end
