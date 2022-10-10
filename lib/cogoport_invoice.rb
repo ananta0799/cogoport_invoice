@@ -12,5 +12,9 @@ module CogoportInvoice
       print "asdfhhh"
       Shipment.where(id: shipment_id)
     end
+
+    def self.update_invoice_combination(params)
+      ShipmentInvoiceCombination.create!(params)
+    end
   end
 end
